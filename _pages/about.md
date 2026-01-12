@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student in Finance with an interest in financial markets,
-macroeconomics, and quantitative methods.
+I am an undergraduate student in Finance with interests in financial microeconomics, macroeconomic dynamics, Bayesian econometrics, and machine learning applied to economic and financial data. My academic focus lies in the use of quantitative and statistical methods to study individual decision-making, financial markets, and macroeconomic behavior under uncertainty.
 
 This website presents information about my academic background, coursework,
 and projects.
