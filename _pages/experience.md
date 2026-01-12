@@ -6,66 +6,73 @@ author_profile: true
 ---
 
 <style>
-  .content-experience {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .content-experience h2,
-  .content-experience h3,
-  .content-experience h4,
-  .content-experience h5 {
-    text-align: left;
-    margin-left: 0;
-  }
-  
-  h2 {
-    margin-bottom: 15px;
-    margin-top: 25px;
+.content-experience {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* Section titles */
+.content-experience h2 {
+  margin: 40px 0 20px;
+  font-weight: 600;
+}
+
+/* Card layout */
+.card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+/* Logo */
+.card-header {
+  flex-shrink: 0;
+  margin-right: 22px;
+}
+
+.card-header img {
+  width: 60px;
+  height: auto;
+}
+
+/* Text */
+.card-body {
+  flex: 1;
+  text-align: left;
+}
+
+.card-title {
+  margin: 6px 0;
+  font-weight: 600;
+}
+
+.card-text {
+  margin: 2px 0;
+  color: #555;
+}
+
+.card-text a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  h2:first-child {
-    margin-top: 0px;
+  .card-header {
+    margin-bottom: 12px;
   }
- h4 {
-    margin: 25px 0;
-  }
-  
-  .card-header img {
-    display: block;
-    margin: 0;
-  }
-  
-  .card-body {
-    text-align: left;
-  }
-  
-  @media (max-width: 768px) {
-    .card {
-      width: 100% !important;
-      margin: 10px 0;
-    }
-  }
-   @media (max-width: 300px) {
-    .card {
-      width: 100% !important;
-      margin: 5px 0;
-
-    }
-    
-   .card-header img{
-      width:30px;
-   }
-
-   .card-title{
-      font-size: 14px !important;
-   }
-   .card-text{
-      font-size: 12px !important;
-   }
-
-  }
+}
 </style>
+
 
 <div class="content-experience">
   <!-- Education -->
@@ -102,7 +109,7 @@ author_profile: true
       <img draggable="false" src="{{ '/assets/img/institutions/qlab_logo.png' | relative_url }}" alt="QLab Logo">
     </div>
     <div class="card-body">
-      <p class="card-text">QLab – Pontificia Universidad Católica del Perú</a></p>
+      <p class="card-text">QLab – Pontificia Universidad Católica del Perú</p>
       <h5 class="card-title">Summer and Winter School</h5>
       <p class="card-text">2025</p>
     </div>
