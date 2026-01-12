@@ -98,7 +98,7 @@ author_profile: true
       <img draggable="false" src="{{ '/assets/img/institutions/finlab_logo.png' | relative_url }}" alt="FinLab Logo">
     </div>
     <div class="card-body">
-      <p class="card-text">FinLab – Pontificia Universidad Católica del Perú</p>
+      <p class="card-text"><a href="https://linktr.ee/finlab_ccss">FinLab Pontificia – Universidad Católica del Perú</a></p>
       <h5 class="card-title">Summer School</h5>
       <p class="card-text">2026</p>
     </div>
@@ -109,7 +109,7 @@ author_profile: true
       <img draggable="false" src="{{ '/assets/img/institutions/qlab_logo.png' | relative_url }}" alt="QLab Logo">
     </div>
     <div class="card-body">
-      <p class="card-text">QLab – Pontificia Universidad Católica del Perú</p>
+      <p class="card-text"><a href="https://qlab.pucp.edu.pe/">QLab Pontificia – Universidad Católica del Perú</a></p>
       <h5 class="card-title">Summer and Winter School</h5>
       <p class="card-text">2025</p>
     </div>
