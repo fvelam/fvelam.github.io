@@ -95,7 +95,7 @@ author_profile: true
 
   <div class="card">
     <div class="card-header">
-      <img draggable="false" src="{{ '/assets/img/institutions/fin_lab-logo.png' | relative_url }}" alt="FinLab Logo">
+      <img draggable="false" src="{{ '/assets/img/institutions/finlab-logo.png' | relative_url }}" alt="FinLab Logo">
     </div>
     <div class="card-body">
       <p class="card-text">FinLab – Pontificia Universidad Católica del Perú</p>
@@ -133,6 +133,21 @@ author_profile: true
         With <a href="https://www.pucp.edu.pe/profesor/pavel-coronado-castellanos" target="_blank">Pavel Coronado</a> |
         <a href="https://www.pucp.edu.pe/profesor/jose-gallardo-ku" target="_blank">José Gallardo Ku</a>
       </p> 
+    </div>
+  </div>
+
+
+    <!-- Volunteering -->
+  <h2>Volunteering</h2>
+  
+  <div class="card">
+    <div class="card-header">
+      <img draggable="false" src="{{ '/assets/img/institutions/economica_logo.png' | relative_url }}" alt="Economica Logo">
+    </div>
+    <div class="card-body">
+      <p class="card-text"><a href="https://economica.pe/">Economica</a></p>
+      <h5 class="card-title">Member of Financial Area</h5>
+      <p class="card-text">Mar–Aug 2025</p>
     </div>
   </div>
   
