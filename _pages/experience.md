@@ -13,7 +13,7 @@ author_profile: true
 
 /* Section titles */
 .content-experience h2 {
-  margin: 40px 0 20px;
+  margin: 36px 0 16px;
   font-weight: 600;
 }
 
@@ -23,8 +23,8 @@ author_profile: true
   align-items: center;
   background: #ffffff;
   border-radius: 16px;
-  padding: 20px 25px;
-  margin-bottom: 20px;
+  padding: 18px 24px;
+  margin-bottom: 18px;
   box-shadow: 0 12px 28px rgba(0,0,0,0.08);
 }
 
@@ -43,21 +43,44 @@ author_profile: true
 .card-body {
   flex: 1;
   text-align: left;
+  line-height: 1.35;
 }
 
-.card-title {
-  margin: 6px 0;
-  font-weight: 600;
-}
-
+/* Institution (link) */
 .card-text {
-  margin: 2px 0;
+  margin: 1px 0;
+  font-size: 0.95rem;
   color: #555;
 }
 
+/* Darker academic blue for links */
 .card-text a {
   text-decoration: none;
-  color: #1a73e8;
+  color: #1f4fd8;
+}
+
+.card-text a:hover {
+  text-decoration: underline;
+}
+
+/* Position / Degree (main focus) */
+.card-title {
+  margin: 4px 0 2px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #222;
+}
+
+/* Dates / secondary info */
+.card-text:last-child {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Muted line (With …) */
+.card-text.muted {
+  font-size: 0.9rem;
+  color: #777;
 }
 
 /* Mobile */
@@ -68,7 +91,7 @@ author_profile: true
   }
 
   .card-header {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 }
 </style>
