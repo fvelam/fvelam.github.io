@@ -95,7 +95,7 @@ author_profile: true
 
   <div class="card">
     <div class="card-header">
-      <img draggable="false" src="{{ '/assets/img/institutions/finlab-logo.png' | relative_url }}" alt="FinLab Logo">
+      <img draggable="false" src="{{ '/assets/img/institutions/finlab_logo.png' | relative_url }}" alt="FinLab Logo">
     </div>
     <div class="card-body">
       <p class="card-text">FinLab – Pontificia Universidad Católica del Perú</p>
