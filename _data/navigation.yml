@@ -18,7 +18,7 @@ main:
   #  url: /teaching/    
 
   - title: "Experience"
-    url: /#experience
+    url: /experience/
     
   - title: "Portfolio"
     url: /portfolio/
