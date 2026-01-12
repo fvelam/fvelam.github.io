@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: pages
 title: "Education & Experience"
 permalink: /experience/
 author_profile: true
