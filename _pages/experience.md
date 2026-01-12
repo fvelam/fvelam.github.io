@@ -53,6 +53,19 @@ author_profile: true
   color: #555;
 }
 
+/* Reduce space between institution and position */
+.card-text {
+  margin-bottom: 0;
+}
+
+/* Position / Degree (main focus) */
+.card-title {
+  margin: 2px 0 2px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #222;
+}
+
 /* Darker academic blue for links */
 .card-text a {
   text-decoration: none;
@@ -61,14 +74,6 @@ author_profile: true
 
 .card-text a:hover {
   text-decoration: underline;
-}
-
-/* Position / Degree (main focus) */
-.card-title {
-  margin: 4px 0 2px;
-  font-weight: 600;
-  font-size: 1.05rem;
-  color: #222;
 }
 
 /* Dates / secondary info */
